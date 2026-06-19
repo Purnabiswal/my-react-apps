@@ -1,0 +1,112 @@
+
+.parent{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  padding: 30px;
+}
+
+.cards{
+  border: 1px;
+  width: 220px;
+  box-shadow: 0 2px 40px gray;
+  height: 250px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.cards .top{
+  border: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.top img{
+  border: 1px solid gray;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.top button{
+  border-radius: 5px;
+  border: 1px gray;
+  padding: 3px 6px;
+  font-size: 10px;
+  color: gray;
+}
+
+
+.center{
+  /* background-color: red; */
+}
+
+.center h3{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.center h3 span{
+  font-size: 8px;
+  font-weight: 100;
+}
+
+.center h2{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+
+.center .tag{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 9px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.center .tag h4{
+  background-color: lightgray;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+
+.bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid rgb(209, 209, 209);
+  margin-top: ;
+}
+
+.bottom button{
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 4px 8px;
+  background-color: black;
+  color: white;
+  column-width: 600;
+}
+
+.bottom h3{
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 4px; 
+  margin-top: 3px;
+}
+
+.bottom p{
+  font-size: 10px;
+  margin-top: 1px;
+}
