@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 const App = () => {
   const [num, setnum] = useState(0);
@@ -25,7 +25,15 @@ const App = () => {
 
   //Way-2 to update array/object
   const btnClciked2 = () => {
-    seta(prev=>({...prev, age:50}))
+    seta((prev) => ({ ...prev, age: 50 }));
+  };
+
+
+  //Batch update
+  const btnClicked3 = () => {
+    setNum(prev => (prev + 1));
+    setNum(prev => (prev + 1));
+    setNum(prev => (prev + 1));
   };
 
   return (
@@ -41,6 +49,6 @@ const App = () => {
       <button onClick={btnClciked2}>Button2</button>
     </div>
   );
-}
+};
 
-export default App
+export default App;
