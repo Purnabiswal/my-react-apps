@@ -6,6 +6,7 @@ const App = () => {
   const submitHandler=(e)=>{
     e.preventDefault()
     console.log(`From submitted by ${title}`);
+    
     settitle('')
   }
   
