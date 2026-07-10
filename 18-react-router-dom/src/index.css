@@ -1,0 +1,30 @@
+*{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color:blueviolet;
+}
+
+
+.nav div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
