@@ -1,0 +1,33 @@
+*{
+    color: white;
+}
+
+body{
+
+}
+
+.screen1{
+    background-color: white;
+    height: 100vh;
+}
+
+.light{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.dark{
+    display: flex;
+    background-color: rgb(24, 9, 38);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav2{
+    display: flex;
+    gap: 30px;
+}
