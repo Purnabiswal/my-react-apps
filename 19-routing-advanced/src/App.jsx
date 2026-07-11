@@ -8,17 +8,31 @@ import Product from './pages/Product'
 import NoteFound from './pages/NoteFound'
 import Men from './pages/Men'
 import Women from './pages/Women'
+import Courses from './pages/Courses'
+import CourseDetail from './pages/CourseDetail'
+import Navbar2 from './components/Navbar2'
 
 
 const App = () => {
   return (
     <div className="bg-black h-screen text-white">
       <Navbar />
+      <Navbar2/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="*" element={<NoteFound />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/courses/:id" element={<CourseDetail />} />
 
+
+
+
+
+
+        <Route path="*" element={<NoteFound />} />
+        
+        
+        
         {/* Way1: */}
         {/* <Route path='/product' element={<Product/>} />
         <Route path='/product/men' element={<Men/>} />
